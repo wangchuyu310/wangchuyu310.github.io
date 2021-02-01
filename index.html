@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<div id="ace-content" class="ace-container-shift">
+  <div class="ace-container">
+    <div id="ace-nav-wrap" class="hidden-sm hidden-xs">
+      <div class="ace-nav-cont">
+        <div id="ace-nav-scroll">
+          <nav id="ace-nav" class="ace-nav">
+            <ul class="clear-list">
+              <li>
+                <a href="/" data-tooltip="Home">
+                  <span class="ace-icon ace-icon-home"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#basic_info" data-tooltip="BASIC INFO">
+                  <span class="ace-icon ace-icon-info"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#education" data-tooltip="EDUCATION BACKGROUND">
+                  <span class="ace-icon ace-icon-about"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#academic_experience" data-tooltip="ACADEMIC EXPERIENCE">
+                  <span class="ace-icon ace-icon-signal"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#work_experience" data-tooltip="WORK EXPERIENCE">
+                  <span class="ace-icon ace-icon-experience"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#publications" data-tooltip="PUBLICATIONS">
+                  <span class="ace-icon ace-icon-side-bar-icon"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#skill" data-tooltip="SKILLS">
+                  <span class="ace-icon ace-icon-blog"></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div id="ace-nav-tools" class="hidden">
+          <span class="ace-icon ace-icon-dots-three-horizontal"></span>
+
+          <button id="ace-nav-arrow" class="clear-btn">
+            <span class="ace-icon ace-icon-chevron-thin-down"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- <div class="ace-nav-btm"></div> -->
+    </div><!-- .ace-nav-wrap -->
+
+    <div class="ace-paper-stock">
+      <main class="ace-paper clearfix">
+        <div class="ace-paper-cont clear-mrg">
+          <!-- START: PAGE CONTENT -->
+          <div class="padd-box clear-mrg">
+            {% include resumer_01-basic.html %}
+            {% include resumer_03-education.html %}
+            {% include resumer_04-academic_experience.html %}
+            {% include resumer_05-work_experience.html %}
+            {% include resumer_06-publications.html %}
+            {% include resumer_02-skill.html %}
+          </div><!-- .padd-box -->
+          <!-- END: PAGE CONTENT -->
+        </div><!-- .ace-paper-cont -->
+      </main><!-- .ace-paper -->
+    </div><!-- .ace-paper-stock -->
+  </div><!-- .ace-container -->
+</div><!-- #ace-content -->

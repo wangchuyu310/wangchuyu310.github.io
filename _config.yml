@@ -1,0 +1,18 @@
+# Site settings
+name: Chuyu WANG
+location: Shenzhen China
+company: XKool Tech.
+position: Senior Researcher
+github: https://github.com/wangchuyu310
+phone: +86 18312003883
+email: chuyuwang310@icloud.com
+
+baseurl: "/wangchuyu310.github.io"
+
+permalink: /:year/:month/:day/:title/
+
+exclude: ['README.md']
+
+# Build settings
+markdown: kramdown
+
